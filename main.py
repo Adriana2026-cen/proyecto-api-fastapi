@@ -12,10 +12,11 @@ class Item(BaseModel):
     nombre: str
     precio: float
 
+
 @app.get("/")
 def inicio():
     return {
-        "mensaje": "¡Mi API está funcionando!",
+      "mensaje": "¡Mi API está publicada y actualizada en Render!",
         "autor": "Adriana Cen"
     }
 
